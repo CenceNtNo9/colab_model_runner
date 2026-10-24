@@ -1,0 +1,4 @@
+interface:
+  display_name: "Colab 模型运行"
+  short_description: "自动运行 Colab 模型并持久保存到 Drive，检查结果后释放 GPU"
+  default_prompt: "Use $colab-model-runner to deploy the requested model on Colab, persist models and outputs in Google Drive, run a test, and report the GPU session status."
